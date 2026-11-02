@@ -15,7 +15,7 @@ st.set_page_config(
     layout="centered"
 )
 
-MODEL_PATH = Path("CAT.keras")  # Change this if your model has another name
+MODEL_PATH = Path("xray.keras")  # Change this if your model has another name
 CLASS_NAMES_PATH = Path("classes.json")
 IMAGE_SIZE = (64, 64)           # Must match the size used during training
 
